@@ -1,5 +1,5 @@
 {
-    "name": "laravel-payment",
+    "name": "huangro/laravel-payment",
     "description": "主流支付SDK",
     "keywords": [
         "payment",
