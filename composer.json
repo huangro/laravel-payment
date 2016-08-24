@@ -31,7 +31,8 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "TYWeChat\\": "wechat/src/"
+            "TYWeChat\\": "wechat/src/",
+            "Huangro\\LaravelPayment\\": "src/"
         },
         "files": [
             "wechat/src/Payment/helpers.php"
