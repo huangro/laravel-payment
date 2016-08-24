@@ -32,6 +32,9 @@
     "autoload": {
         "psr-4": {
             "TYWeChat\\": "wechat/src/"
-        }
+        },
+        "files": [
+            "wechat/src/Payment/helpers.php"
+        ]
     }
 }
