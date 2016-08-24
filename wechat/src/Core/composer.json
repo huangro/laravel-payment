@@ -1,0 +1,28 @@
+{
+    "name": "TYWeChat/core",
+    "description": "core module for TYWeChat SDK.",
+    "keywords": ["wechat", "weixin", "SDK", "TYWeChat"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "robin",
+            "email": "robin@v5club.cn"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TYWeChat\\Core\\": "."
+        }
+    },
+    "minimum-stability":"dev",
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "mockery/mockery": "^1.0@dev"
+    },
+    "require": {
+        "php":">=5.5.0",
+        "doctrine/cache": "~1.4",
+        "TYWeChat/support" : "dev-master",
+        "guzzlehttp/guzzle": "~6.1"
+    }
+}
